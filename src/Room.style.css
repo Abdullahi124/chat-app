@@ -1,0 +1,97 @@
+.room > h2 {
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.room-container {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 80vh;
+  box-shadow: 0 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+.room-header {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 8vh;
+}
+.header-info {
+  display: flex;
+  margin-left: 30px;
+}
+.content {
+  margin-left: 30px;
+}
+.room-body {
+  overflow: scroll;
+  height: 57vh;
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png");
+  background-position: center;
+  background-repeat: repeat;
+  padding: 30px;
+}
+
+.chat-message {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.chat-reciever {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.chat-name {
+  position: absolute;
+  top: -15px;
+  font-size: xx-small;
+  font-weight: 900;
+}
+.timestamp {
+  margin-left: 15px;
+  font-size: xx-small;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.room-body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.room-body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.room-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  border-top: 1px solid lightgrey;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex: 1;
+  margin-top: 4px;
+}
+form > input {
+  flex: 0.8;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+form > button {
+  padding: 7px;
+  text-transform: uppercase;
+  flex: 0.15;
+  background-color: black;
+  color: white;
+}

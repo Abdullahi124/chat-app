@@ -1,0 +1,18 @@
+.header {
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > img {
+  object-fit: contain;
+  height: 100px;
+  width: 150px;
+}
+.header-icons > .MuiSvgIcon-root {
+  margin-right: 40px;
+  font-size: 30px;
+}

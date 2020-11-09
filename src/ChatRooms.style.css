@@ -1,0 +1,16 @@
+.chatRooms {
+  padding: 20px;
+  border: 1px solid lightgrey;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.chatRoom-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.chatRoom-details > span {
+  font-size: 18px;
+  font-weight: 600;
+}

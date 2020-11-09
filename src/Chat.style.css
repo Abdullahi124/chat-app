@@ -1,0 +1,24 @@
+.chat h1 {
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.chat-rooms {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 70vh;
+  overflow: scroll;
+  box-shadow: 0 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chat-rooms::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat-rooms {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
